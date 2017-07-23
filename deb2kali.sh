@@ -1,5 +1,6 @@
 #!/bin/bash 
-
+apt update
+apt install dirmngr
 ### Replace the Debian repos with Kali repos ###
 mv /etc/apt/sources.list /etc/apt/sources.list.debian
 cat <<EOF > /etc/apt/sources.list
